@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import com.example.modelo.Libro;
 
+
+
 public class VisualizarObjetoActivity extends AppCompatActivity {
     private TextView salida;
 

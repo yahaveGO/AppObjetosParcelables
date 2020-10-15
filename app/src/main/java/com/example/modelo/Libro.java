@@ -41,7 +41,7 @@ public class Libro implements Parcelable {
     @Override
     public String toString() {
         return "LibroParcelable{" +
-                "isnb='" + isbn + '\'' +
+                "isbn='" + isbn + '\'' +
                 ", titulo='" + titulo + '\'' +
                 ", autor='" + autor + '\'' +
                 ", editorial='" + editorial + '\'' +
@@ -49,12 +49,12 @@ public class Libro implements Parcelable {
                 '}';
     }
 
-    public String getIsnb() {
+    public String getIsbn() {
         return isbn;
     }
 
-    public void setIsnb(String isnb) {
-        this.isbn = isnb;
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
     }
 
     public String getTitulo() {

@@ -23,9 +23,10 @@
         android:layout_marginLeft="@dimen/size_margin_sides"
         android:layout_marginTop="@dimen/size_margin_top"
         android:layout_marginRight="@dimen/size_margin_sides"
+        android:onClick="pasarObjetoParcelable"
         android:text="@string/txt_boton_objeto"
         android:textAllCaps="false"
-        android:textSize="@dimen/size_font_zise"/>
+        android:textSize="@dimen/size_font_zise" />
 
     <Button
         android:id="@+id/button2"
