@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">AppObjetosParcelables</string>
+    <string name="app_name">Objetos Parcelables</string>
+
+    <string name="app_titulo">Paso de Paramétros Parcelables</string>
+    <string name="txt_boton_objeto">Paso de Objetos</string>
+    <string name="txt_boton_lista_objetos">Paso de Lista de Objetos</string>
+    <string name="txt_boton_objeto_objetos">Paso de Objeto de Objetos</string>
+    <string name="txt_boton_parametro_retorno">Retorno de Objetos Parcelables</string>
 </resources>
