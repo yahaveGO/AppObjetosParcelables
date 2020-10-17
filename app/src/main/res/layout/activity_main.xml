@@ -61,15 +61,5 @@
         android:textAllCaps="false"
         android:textSize="@dimen/size_font_zise"/>
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/size_margin_sides"
-        android:layout_marginTop="@dimen/size_margin_top"
-        android:layout_marginRight="@dimen/size_margin_sides"
-        android:text="Rama de @si salio"
-        android:textAllCaps="false"
-        android:textSize="@dimen/size_font_zise"/>
 
 </LinearLayout>
