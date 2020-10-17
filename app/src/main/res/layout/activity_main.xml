@@ -68,7 +68,7 @@
         android:layout_marginLeft="@dimen/size_margin_sides"
         android:layout_marginTop="@dimen/size_margin_top"
         android:layout_marginRight="@dimen/size_margin_sides"
-        android:text="Rama de @Chus"
+        android:text="Rama de @no sale"
         android:textAllCaps="false"
         android:textSize="@dimen/size_font_zise"/>
 
