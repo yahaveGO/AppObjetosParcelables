@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.appobjetosparcelables">
+    package="com.example.appobjparcelables">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".VisualizarObjetoActivity"></activity>
+        <activity android:name=".RetornarActivityObj"></activity>
+        <activity android:name=".estanteActivity" />
+        <activity android:name=".ListaObjaParcelable" />
+        <activity android:name=".VisualizarObjActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

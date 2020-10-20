@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">Objetos Parcelables</string>
+    <string name="app_name">AppObjParcelables</string>
+    <string name="titulo_parcelable">Paso de parámetros parcelables.</string>
+    <string name="paso_obj">Paso de objetos.</string>
+    <string name="paso_obj_lista">Paso de lista de objetos.</string>
+    <string name="paso_obj_obj">Paso de objetos de objetos.</string>
+    <string name="retorno_obj">Retorno de objetos parcelables.</string>
+    <string name="visualizacion">Objeto percelable</string>
 
-    <string name="app_titulo">Paso de Paramétros Parcelables</string>
-    <string name="txt_boton_objeto">Paso de Objetos</string>
-    <string name="txt_boton_lista_objetos">Paso de Lista de Objetos</string>
-    <string name="txt_boton_objeto_objetos">Paso de Objeto de Objetos</string>
-    <string name="txt_boton_parametro_retorno">Retorno de Objetos Parcelables</string>
+
 </resources>

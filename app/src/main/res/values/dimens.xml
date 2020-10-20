@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="size_margin_top">20dp</dimen>
-    <dimen name="size_font_zise">20sp</dimen>
-    <dimen name="size_margin_sides">20dp</dimen>
+    <dimen name="size_top">20dp</dimen>
+    <dimen name="size_start">15dp</dimen>
+    <dimen name="size_end">15dp</dimen>
+    <dimen name="titulo_size">20sp</dimen>
 </resources>
