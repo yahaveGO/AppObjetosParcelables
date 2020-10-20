@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AppObjParcelables</string>
+    <string name="app_name">Objetos Parcelables</string>
     <string name="titulo_parcelable">Paso de parámetros parcelables.</string>
     <string name="paso_obj">Paso de objetos.</string>
     <string name="paso_obj_lista">Paso de lista de objetos.</string>
