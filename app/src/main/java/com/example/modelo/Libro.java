@@ -4,6 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class Libro implements Parcelable {
+
     private String isbn;
     private String titulo;
     private String autor;
@@ -14,16 +15,12 @@ public class Libro implements Parcelable {
 
     }
 
-    //Aqui es donde lo lee el parcel
-    public Libro(Parcel in) {
-        /*
+    protected Libro(Parcel in) {
         isbn = in.readString();
         titulo = in.readString();
         autor = in.readString();
         editorial = in.readString();
         edicion = in.readString();
-         */
-        readFromParcel(in);
     }
 
     public static final Creator<Libro> CREATOR = new Creator<Libro>() {
@@ -37,17 +34,6 @@ public class Libro implements Parcelable {
             return new Libro[size];
         }
     };
-
-    @Override
-    public String toString() {
-        return "LibroParcelable{" +
-                "isbn='" + isbn + '\'' +
-                ", titulo='" + titulo + '\'' +
-                ", autor='" + autor + '\'' +
-                ", editorial='" + editorial + '\'' +
-                ", edicion='" + edicion + '\'' +
-                '}';
-    }
 
     public String getIsbn() {
         return isbn;
@@ -93,7 +79,7 @@ public class Libro implements Parcelable {
     public int describeContents() {
         return 0;
     }
-    //Aqui escribe el parcel es como un intermediario
+
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(isbn);
@@ -103,12 +89,14 @@ public class Libro implements Parcelable {
         dest.writeString(edicion);
     }
 
-    //Aqui los lee
-    private void readFromParcel(Parcel in) {
-        isbn = in.readString();
-        titulo = in.readString();
-        autor = in.readString();
-        editorial = in.readString();
-        edicion= in.readString();
+    @Override
+    public String toString() {
+        return "Libro{" +
+                "isbn='" + isbn + '\'' +
+                ", titulo='" + titulo + '\'' +
+                ", autor='" + autor + '\'' +
+                ", editorial='" + editorial + '\'' +
+                ", edicion='" + edicion + '\'' +
+                '}';
     }
 }
